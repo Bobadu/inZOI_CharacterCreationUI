@@ -118,8 +118,62 @@ const MainContent: React.FC = () => {
                 </section>
 
                 {/* Prawa sekcja */}
+                {/* Prawa sekcja */}
                 <section>
-                    {/* Tutaj zawartość prawej sekcji */}
+                    {/* Nagłówek */}
+                    <div className="flex flex-row items-center mb-6 text-[#d2d5d7] text-xl font-[500] mr-2 gap-2">
+                        <span>Wygląd</span>
+                        <FaUser></FaUser>
+                    </div>
+
+                    {/* Linia */}
+                    <div className="w-full h-[1.3px] bg-[#d2d5d7] my-6"></div>
+
+                    {/* Lista z niestandardowymi markerami */}
+                    <ul className="list-none space-y-10 mt-6">
+                        <li className="flex items-center gap-3">
+                            <div className="relative h-5 w-5">
+                                <div className="absolute inset-0 rounded-full border border-dashed border-[#d2d5d7]"></div>
+                                <div className="absolute inset-[30%] rounded-full bg-[#d2d5d7]"></div>
+                            </div>
+                            <span className="text-[#fff] text-xl">Ust. początkowe Zoi</span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                            <div className="relative h-5 w-5">
+                                <div className="absolute inset-0 rounded-full border border-dashed border-[#d2d5d7]"></div>
+                                <div className="absolute inset-[30%] rounded-full bg-[#d2d5d7]"></div>
+                            </div>
+                            <span className="text-[#fff] text-xl">Twarz</span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                            <div className="relative h-5 w-5">
+                                <div className="absolute inset-0 rounded-full border border-dashed border-[#d2d5d7]"></div>
+                                <div className="absolute inset-[30%] rounded-full bg-[#d2d5d7]"></div>
+                            </div>
+                            <span className="text-[#fff] text-xl">Ciało</span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                            <div className="relative h-5 w-5">
+                                <div className="absolute inset-0 rounded-full border border-dashed border-[#d2d5d7]"></div>
+                                <div className="absolute inset-[30%] rounded-full bg-[#d2d5d7]"></div>
+                            </div>
+                            <span className="text-[#fff] text-xl">Ubiór</span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                            <div className="relative h-5 w-5">
+                                <div className="absolute inset-0 rounded-full border border-dashed border-[#d2d5d7]"></div>
+                                <div className="absolute inset-[30%] rounded-full bg-[#d2d5d7]"></div>
+                            </div>
+                            <span className="text-[#fff] text-xl">Stwórz</span>
+                        </li>
+                        <li className="flex items-center gap-3">
+                            <div className="relative h-5 w-5">
+                                <div className="absolute inset-0 rounded-full border border-dashed border-[#d2d5d7]"></div>
+                                <div className="absolute inset-[30%] rounded-full bg-[#d2d5d7]"></div>
+                            </div>
+                            <span className="text-[#fff] text-xl">Akcesoria</span>
+                        </li>
+                    </ul>
                 </section>
             </div>
         </main>
